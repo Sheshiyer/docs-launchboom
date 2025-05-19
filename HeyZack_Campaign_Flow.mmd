@@ -1,0 +1,20 @@
+graph TD
+    A[Pre-Launch] -->|Email Sequence| B(VIP Signups)
+    A -->|Ads| C(Social Media Awareness)
+    B --> D[Launch Day]
+    C --> D
+    D --> E[Day 1-7 Sequence]
+    E --> F[Backer Updates]
+    F --> G[Fulfillment]
+    
+    subgraph Campaign Phases
+    A
+    D
+    G
+    end
+    
+    subgraph Key Metrics
+    H[Funding Goal]
+    I[Backer Growth]
+    J[Engagement Rate]
+    end
